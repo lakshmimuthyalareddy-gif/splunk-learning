@@ -1,0 +1,7 @@
+# My first Splunk practice queries
+# Search all events 
+index=main
+#search for errors 
+index=main error
+#Search for failed logins
+index=main "failed login"
